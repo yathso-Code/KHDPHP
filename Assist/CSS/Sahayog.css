@@ -1,0 +1,215 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.d-flex{
+   background-color: rgb(234, 234, 234);
+   height: auto;
+   width: 100vw;
+}
+.d-flex .container-fluid{
+    /* border: 5px solid red; */
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    z-index: 100;
+    padding: 4px 50px;
+}
+ .twitter{
+     background-color: #df3740;
+     padding: 2px 9px;
+     border-radius: 7px 0;
+     border: 1px solid gray;
+     font-size: 20px;
+     /* margin: 100px; */
+     text-decoration: none;
+}
+/* ------------------icon and regestration----------- */
+.icon_box{
+      background-color: rgb(255, 255, 255);
+      width: 100vw;
+      height: auto;
+      border: 1px solid rgb(129, 129, 129);
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      flex-wrap: wrap;
+      padding: 0 0px 0 0;
+}
+.icon_box .logo_box img{
+     height: 50px;
+}
+@media (max-width: 647px){
+    .icon_box{
+         /* background-color: red; */
+    }
+    .icon_box .logo_box img{
+          width: 300px;
+    }
+ }
+ @media (max-width: 459px){
+    .icon_box .logo_box img{
+        width: 280px;
+  }
+ }
+ @media (max-width: 458px){
+    .icon_box .logo_box img{
+         width: 190px;
+    }
+ }
+ @media (max-width: 358px){
+     .icon_box .logo_box img{
+          width: 150px;
+     } 
+ }
+ @media (max-width: 314px){
+     .icon_box .logo_box img{
+          width: 130px;
+     } 
+ }
+
+ /* ===========================navbar =================== */
+.navbar{
+       background-color: #df3740;
+       width: 100vw;
+       display: flex;
+       justify-content: space-around;
+       flex-wrap: wrap;
+
+}
+.navbar a{
+      /* border: 2px solid rgb(29, 6, 131); */
+      /* min-width: 200px; */
+      padding: 5px  9px;
+      text-align: center;
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+      margin: 3px 0;
+      transition: all .5s ;
+}
+.navbar a:hover{
+     background-color: white;
+     /* border: 1px solid black; */
+     color: #df3740;
+}
+@media (max-width: 1049px) {
+    .navbar a{
+          border: 1px solid black;
+    }
+}
+
+
+
+
+/* -------------------------------- HEADING START-------------------------------------*/
+.donation{
+   background-color: rgb(234, 231, 231);
+   width: 100vw;
+   height: 10vh;
+   line-height: 4.5em;
+}
+.donation span:nth-child(1){
+   font-size: 2.8em;
+   margin-left: 8%;
+   color: rgb(84, 82, 82);
+}
+.donation span:nth-child(2){
+   float: right;
+   line-height: 3.4em;
+   margin-right: 9%;
+   color: rgb(84, 82, 82);
+   font-weight: 700;
+   font-size: 1.3em;
+}
+/* ================================ HEADING ENDS ==============================================*/
+
+
+/* --------------------------------- TABLE HEADING------------------------------------------------ */
+
+.table_heading{
+   /* background-color: cyan; */
+   width: 83vw;
+   height: 5vh;
+   margin: 1% 0% 0%  8.2%;
+   font-size: 1.2em;
+   color: gray;
+}
+.table_heading span:nth-child(2){
+   float: right;
+}
+
+/* ================================= TABLE HEADING END ============================================== */
+
+  /* --------------------------------- TABLE START ------------------------------------------------ */
+ .scrollable-table-container {
+   width: 83vw; /* Set width for the container */
+   height: 400px; /* Set height for the container */
+   overflow: auto; /* Enable both horizontal and vertical scrolling */
+   border: 1px solid #ccc; /* Add border for visual clarity */
+   margin-left: 8%;
+   margin-top: 1%;
+ }
+
+ table {
+   width: 100%; /* Make table width 100% of its container */
+   border-collapse: collapse; /* Collapse table borders */
+ }
+
+ th, td {
+   padding: 8px;
+   border: 1px solid #ddd; /* Add border to cells */
+   text-align: left; /* Align text to the left */
+ }
+
+ th {
+   background-color: #f2f2f2; /* Light gray background for table header */
+ }
+
+ tr:hover {
+   background-color: #c5bdbd; /* Light gray background on hover */
+ }
+ 
+
+
+
+ table,
+ td {
+    width: 83vw;
+     border: 1px solid black;
+     border-collapse: collapse;
+     padding: 8px;
+     text-align: center;
+ }
+ tr:nth-child(even){
+   background-color: grey;
+}
+
+ table i{
+    float: right;
+ }
+ /* ================================= TABLE END =================================================*/
+
+
+/* --------------------------------- BUTTON START -------------------------------------------------- */
+
+.div_button{
+   margin-left: 8%;
+   margin-top: 1%;
+}
+.div_button span:nth-child(2){
+   margin-right: 9.8%;
+   float: right;
+}
+.div_button button{
+   background-color: white;
+   border: none;
+   border: 1px solid grey;
+   padding: 5px 10px;
+   font-weight: bolder;
+}
+/* ================================= BUTTON END ================================================== */

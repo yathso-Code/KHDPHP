@@ -1,0 +1,400 @@
+
+.d-flex {
+      background-color: rgb(234, 234, 234);
+      height: auto;
+      width: 100vw;
+}
+
+.d-flex .container-fluid {
+      /* border: 5px solid red; */
+      height: 100%;
+      width: 100vw;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      z-index: 100;
+      padding: 4px 50px;
+}
+
+.twitter {
+      background-color: #df3740;
+      padding: 2px 9px;
+      border-radius: 7px 0;
+      border: 1px solid gray;
+      font-size: 20px;
+      /* margin: 100px; */
+      text-decoration: none;
+}
+
+/* ------------------icon and regestration----------- */
+.icon_box {
+      background-color: rgb(255, 255, 255);
+      width: 100vw;
+      height: auto;
+      border: 1px solid rgb(129, 129, 129);
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      flex-wrap: wrap;
+      padding: 0 0px 0 0;
+}
+
+.icon_box .logo_box img {
+      height: 50px;
+}
+
+@media (max-width: 647px) {
+      .icon_box {
+            /* background-color: red; */
+      }
+
+      .icon_box .logo_box img {
+            width: 300px;
+      }
+}
+
+@media (max-width: 459px) {
+      .icon_box .logo_box img {
+            width: 280px;
+      }
+}
+
+@media (max-width: 458px) {
+      .icon_box .logo_box img {
+            width: 190px;
+      }
+}
+
+@media (max-width: 358px) {
+      .icon_box .logo_box img {
+            width: 150px;
+      }
+}
+
+@media (max-width: 314px) {
+      .icon_box .logo_box img {
+            width: 130px;
+      }
+}
+
+/* ===========================navbar =================== */
+.navbar {
+      background-color: #df3740;
+      width: 100vw;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+
+}
+
+.navbar a {
+      /* border: 2px solid rgb(29, 6, 131); */
+      /* min-width: 200px; */
+      padding: 5px 9px;
+      text-align: center;
+      color: white;
+      font-weight: bold;
+      text-decoration: none;
+      margin: 3px 0;
+      transition: all .5s;
+}
+
+.navbar a:hover {
+      background-color: white;
+      /* border: 1px solid black; */
+      color: #df3740;
+}
+
+@media (max-width: 1049px) {
+      .navbar a {
+            border: 1px solid black;
+      }
+}
+
+/* =====================silding banner================== */
+.slider_box {
+      width: 100vw;
+      height: 350px;
+      /* border: 2px solid red; */
+      position: relative;
+      overflow: hidden;
+      top: 0;
+      left: 0;
+}
+
+.slider_box .img_box {
+      /* border: 2px solid blue; */
+      display: flex;
+      transition: all 0.5s;
+
+}
+
+.slid {
+      flex: 0 0 100%;
+      height: 400px;
+      width: 500px;
+      /* border: 2px solid orange; */
+}
+
+.slid img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+   
+}
+
+.btn {
+      /* border: 2px solid red; */
+      width: 100%;
+      position: absolute;
+      bottom: 20px;
+      left: 0px;
+      display: flex;
+      justify-content: space-between;
+      padding: 0 10px;
+}
+
+.btn button {
+      height: 35px;
+      width: 35px;
+      border-radius: 4px 0;
+      background-color: #df3740;
+      color: white;
+      border: none;
+      border: 2px solid gray;
+
+}
+
+
+.active {
+      transform: translateX(0);
+}
+
+/* ----------------------about--------------------- */
+.about_box {
+      width: 100vw;
+      height: auto;
+      /* border: 2px solid rgb(4, 0, 255); */
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin: 40px 0;
+}
+
+.about_box>div {
+      /* border: 5px solid olivedrab; */
+      max-width: 660px;
+      min-width: 280px;
+      height: auto;
+      margin: 15px;
+      padding: 10px;
+}
+
+.about_box .about_box1 img {
+      width: 100%;
+}
+
+/* ---------------------more about----------------- */
+.container {
+      /* border: 2px solid red; */
+      width: 100vw;
+      height: auto;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin: 80px 0;
+}
+
+.container>div {
+      max-width: 660px;
+      min-width: 280px;
+      /* border: 2px solid blue; */
+      margin: 10px 10px;
+      padding: 10px;
+      background-color: rgb(245, 244, 244);
+}
+
+.container p {
+      text-align: center;
+      margin-top: 20px;
+}
+
+.container a {
+      font-weight: bold;
+      color: gray;
+
+
+}
+
+.container a:hover {
+      color: #df3740;
+}
+
+/* ----------------------doner box----------- */
+.donation_box {
+      width: 100vw;
+      height: auto;
+      text-align: center;
+      /* border: 7px solid rgb(0, 255, 0); */
+}
+
+.donation_box h1 {
+      margin: 20px 0;
+      color: gray;
+}
+
+.donation_box .doner_box {
+      width: 90%;
+      height: auto;
+      /* background-color: red; */
+      margin: auto;
+      padding: 5px;
+      margin-top: 20px;
+      border: 1px solid gray;
+      border-radius: 20px 0;
+}
+
+.donation_box .doner_box .img_box {
+      max-width: 360px;
+      min-width: 160px;
+      height: 290px;
+      background-color: yellowgreen;
+      margin: auto;
+}
+
+.donation_box .doner_box .img_box img {
+      width: 100%;
+      height: 100%;
+}
+
+.donation_box .doner_box .doner_detal {
+      max-width: 760px;
+      min-width: 160px;
+      height: auto;
+      /* background-color:#df3740 ; */
+      margin: auto;
+
+}
+
+.donation_box .doner_box .doner_detal .d_text {
+      color: gray;
+
+}
+
+/* ----------------info box--------------- */
+.info_box {
+      /* border: 1px solid rgb(70, 70, 70); */
+      width: 100vw;
+      margin: 10px 0;
+}
+
+.info_box div {
+      /* border: 2px solid green; */
+      width: 100%;
+      height: auto;
+      border-bottom: 1px solid gray;
+      padding: 10px 10px;
+}
+
+.info_box div h3,
+p {
+      text-align: center;
+      color: rgb(85, 85, 85);
+}
+
+.info_box div h3 {
+      color: #df3740;
+}
+
+/* -------------footer-------------- */
+.footer {
+      /* border: 2px solid red; */
+      width: 100vw;
+      height: auto;
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      background-color: #515D6A;
+      padding: 20px 0;
+      margin-top: 20px;
+}
+
+.footer div {
+      margin: 15px 0;
+      max-width: 760px;
+      min-width: 160px;
+      /* border: 2px solid red; */
+      padding: 10px;
+      color: rgb(253, 253, 253);
+}
+
+.footer div:last-child {
+      /* border: 5px solid green; */
+}
+
+.footer div:last-child .fa-brands {
+      margin-right: 8px;
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 10px;
+      border-radius: 6px;
+      transition: all 0.5s;
+      cursor: pointer;
+}
+
+.footer div:last-child .fa-brands:hover {
+      background-color: red;
+}
+
+.footer div h1 {
+      margin: 9px 0;
+}
+
+.footer div ul li {
+      margin: 10px 0;
+      list-style: none;
+      color: #ffffff93;
+      transition: all 0.5s;
+      cursor: pointer;
+}
+
+.footer div ul li:hover {
+      color: #fff;
+}
+
+.down_ {
+      background-color: #4A5562;
+      padding: 30px 0;
+}
+
+.down_ p {
+      color: #fff;
+}
+.down_ span {
+      font-weight: bold;
+}
+
+@media screen and (max-width: 647px) {
+      .footer {
+            flex-direction: column;
+            align-items: flex-start;
+            letter-spacing: 1px;
+      }
+
+      .footer div h1 {
+            font-size: 26px;
+      }
+
+      .footer div ul li {
+            word-spacing: 1px;
+            margin: 14px 0;
+            font-size: 16px;
+      }
+
+      .down_ p {
+            color: #fff;
+            font-size: 15px;
+            letter-spacing: 0.5px;
+      }
+
+}

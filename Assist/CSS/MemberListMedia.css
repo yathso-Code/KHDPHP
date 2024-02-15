@@ -1,0 +1,153 @@
+@media only screen and (max-width: 1025px) {
+   .donation{
+      background-color: rgb(234, 231, 231);
+      width: 100vw;
+      height: 7vh;
+   }
+.donation span:nth-child(1){
+    display: none;
+ }
+ .donation span:nth-child(2){
+   font-size: 2.2em;
+   float: left;
+   margin-left: 4%;
+   line-height: 2em;
+ }
+
+  /* ================================ HEADING ENDS ==============================================*/
+ 
+ 
+ /* --------------------------------- TABLE HEADING------------------------------------------------ */
+ .table_heading{
+   /* background-color: cyan; */
+   width: 91vw;
+   height: 5vh;
+   margin: 1% 0% 0%  4%;
+   font-size: 1.3em;
+}
+ /* ================================= TABLE HEADING END ============================================== */
+ 
+
+ 
+ /* --------------------------------- BUTTON START -------------------------------------------------- */
+ 
+ .div_button{
+   margin-left: 4%;
+}
+.div_button span:nth-child(1){
+   font-size: 1.3em;
+}
+.div_button span:nth-child(2){
+   margin-right: 5.3%;
+}
+.div_button button{
+   padding: 10px 25px;
+   font-size: 1.1em;
+}
+}
+
+
+
+
+
+
+
+
+/* ============================= mobile screen size ========================================= */
+@media only screen and (max-width: 320px){
+   .donation{
+      font-size: .8em;
+   }
+   .donation span:nth-child(2){
+      line-height: 2.2em;
+      margin-left: -9%;
+      font-size: 1.9em;
+    }
+   .table_heading{
+      width: 83vw;
+      height: 10vh;
+   }
+   .table_heading span:nth-child(1){
+      font-size: .8em;
+   }
+   .table_heading span:nth-child(2){
+      font-size: .8em;
+      margin-top: 9%;
+   }
+   table tr td {
+      /* font-size: 1em; */
+  }
+  table tr th{
+   /* display: none; */
+}
+
+.div_button{
+   text-align: center;
+   margin-top: 4%;
+}
+.div_button span:nth-child(2){
+   float: left;
+   text-align: center;
+   margin-left: 21%;
+   margin-top: 4%;
+}
+.div_button button{
+   padding: 5px 10px;
+  
+}
+}
+
+@media only screen and (max-width: 480px) {
+    /* -------------------------------- HEADING START-------------------------------------*/
+ .donation{
+   height: 10vh;
+   line-height: 4.5em;
+}
+.donation span:nth-child(2){
+   line-height: 1.9em;
+   margin-left: 18%;
+}
+/* ================================ HEADING ENDS ==============================================*/
+
+ /* --------------------------------- TABLE HEADING------------------------------------------------ */
+ .table_heading{
+   margin: 1% 0% 15%  19.2%;
+   font-size: 1.4em;
+   display: flex;
+   flex-wrap: wrap;
+}
+.table_heading span:nth-child(1){
+   margin-top: 3%;   
+}
+.table_heading span:nth-child(2){
+   float: none;
+   margin-top: 4%;
+}
+table tr th {
+  font-size: .6em;
+}
+table tr td {
+   font-size: .6em;
+}
+
+/* ================================= TABLE HEADING END ============================================== */
+
+/* --------------------------------- BUTTON START -------------------------------------------------- */
+ 
+.div_button{
+   text-align: center;
+}
+.div_button span:nth-child(1){
+  font-size: 1.1em; 
+  margin-top: 3%;
+}
+.div_button span:nth-child(2){
+  margin-right: 20%;
+  margin-top: 3%;
+}
+.div_button button{
+  
+}
+
+/* ================================= BUTTON END ================================================== */
+}

@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*  heading box start  */
+.box1{
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #d4d1d1;
+    margin-bottom: 50px;
+}
+
+.box1 h2{
+    font-weight:300;
+    font-size: 32px;
+    margin-left: 50px;
+    font-family:'Courier New', Courier, monospace;
+
+}
+
+.box1 ol{
+    margin-right: 50px;
+}
+
+.box1 ol li{
+    display: inline;
+}
+
+.box1 ol li a{
+    text-decoration: none;
+    color: red;
+}
+/* heading box end */
+
+/* meassag box start */
+.box2{
+    width:100%;
+    height: auto;
+    /* border: 1px solid red; */
+    margin: auto;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+
+.box2 .text{
+    width: 100%;
+    height: 80px;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.text h2{
+    color: rgb(33, 31, 31);
+}
+
+.text p{
+    color: rgb(54, 52, 52);
+}
+
+.box2 .info{
+    width: 800px;
+    height: auto;
+    /* border: 1px solid red; */
+}
+
+.info .name{
+    margin-bottom: 30px;
+}
+
+.info .name h3{
+    margin-bottom: 10px;
+    font-weight: 300;
+    color: rgb(46, 45, 45);
+}
+
+.info .name input{
+   width: 100%;
+   height: 40px;
+   border-radius:5px;
+   border: none;
+   outline: none;
+   border: 1px solid gray;
+}
+
+.box2 button{
+    margin: auto;
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    background-color: red;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+
+/* meassag box end */
+/* adding mediaQuery */
+@media screen and (max-width:600px) {
+  
+    .box1 h2{
+        display: none;
+    }
+
+    .box2 .info{
+        width: 600px;
+    }
+
+    .info .name textarea{
+       width: 600px;
+    }
+}
+
+@media screen and (max-width:400px){
+    .box2 .info{
+        width: 380px;
+        /* border: 1px solid red; */
+    }
+
+    .info .name textarea{
+        width: 380px;
+    }
+}
+@media screen and (max-width:360px){
+    .box2 .info{
+        width: 350px;
+        /* border: 1px solid red; */
+    }
+
+    .info .name textarea{
+        width: 350px;
+    }
+}
+@media screen and (max-width:320px){
+    .box2 .info{
+        width: 320px;
+        /* border: 1px solid red; */
+    }
+
+    .info .name textarea{
+        width: 320px;
+    }
+}

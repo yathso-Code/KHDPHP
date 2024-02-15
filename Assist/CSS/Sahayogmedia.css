@@ -1,0 +1,155 @@
+@media only screen and (max-width: 1025px) {
+   /* -----------------------------------  HEADING START----------------------------------------------- -- */
+   .donation{
+      background-color: rgb(234, 231, 231);
+      width: 100vw;
+      height: 7vh;
+   }
+.donation span:nth-child(1){
+    font-size: 2.5em;
+    line-height: 2.1em;
+    margin-left: 4%;
+ }
+ .donation span:nth-child(2){
+   font-size: 1.2em;
+   line-height: 4em;
+   margin-right: 5%;
+ }
+
+  /* ================================ HEADING ENDS ==============================================*/
+ 
+ 
+ /* --------------------------------- TABLE HEADING------------------------------------------------ */
+ .table_heading{
+   /* background-color: cyan; */
+   width: 91vw;
+   line-height: 1.5em;
+   margin: 3% 0% 0% 4%;
+}
+ /* ================================= TABLE HEADING END ============================================== */
+ 
+ /* --------------------------------- TABLE START ------------------------------------------------ */
+ table,
+ th,
+ td {
+    width: 91vw;
+    margin-left: 4%;
+    font-size: .9em;
+    padding: 6px 12px 6px 12px;
+ }
+
+  /* ================================= TABLE END =================================================*/
+ 
+ 
+ /* --------------------------------- BUTTON START -------------------------------------------------- */
+ 
+ .div_button{
+   margin-left: 4%;
+   margin-top: 1.2%;
+}
+.div_button span:nth-child(1){
+   font-size: 1.2em;
+}
+.div_button span:nth-child(2){
+   margin-right: 5.3%;
+   float: right;
+}
+.div_button button{
+   padding: 5px 10px;
+   font-size: 1.1em;
+
+}
+}
+
+
+
+
+
+@media only screen and (max-width: 768px){
+  /* -----------------------------------  HEADING START----------------------------------------------- -- */
+  .donation{
+   width: 100VW;
+   height: 9vh;
+}
+/* ================================ HEADING ENDS ==============================================*/
+
+ /* --------------------------------- TABLE HEADING------------------------------------------------ */
+.table_heading{
+   /* background-color: cyan; */
+   width: 91vw;
+   height: 4vh;
+   line-height: 1.8em;
+   margin: 1% 0% 0% 4%;
+}
+.table_heading span:nth-child(2){
+   float: right;
+}
+ /* ================================= TABLE HEADING END ============================================== */
+}
+
+
+
+
+
+
+
+
+/* ============================= mobile screen size ========================================= */ 
+
+@media only screen and (max-width: 480px) {
+    /* -------------------------------- HEADING START-------------------------------------*/
+ .donation{
+   height: 7vh;
+}
+.donation span:nth-child(1){
+   display: none;
+}
+.donation span:nth-child(2){
+   line-height: 1.9em;
+ margin-right: 25%;
+ font-size: 1.5em;
+}
+/* ================================ HEADING ENDS ==============================================*/
+
+ /* --------------------------------- TABLE HEADING------------------------------------------------ */
+ .table_heading{
+   /* background-color: cyan; */
+   margin: 1% 0% 5%  3%;
+   height: auto;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+}
+
+.table_heading span:nth-child(2){
+   padding: 2.7%;
+}
+table tr td:nth-child(n+3) {
+   display: none;
+}
+table tr th:nth-child(n+3) {
+display: none;
+}
+
+/* ================================= TABLE HEADING END ============================================== */
+
+/* --------------------------------- BUTTON START -------------------------------------------------- */
+ 
+.div_button{
+   text-align: center;
+}
+.div_button span:nth-child(1){
+  font-size: 1.1em; 
+  margin-top: 3%;
+}
+.div_button span:nth-child(2){
+  margin-right: 29%;
+  margin-top: 3%;
+}
+.div_button button{
+  
+}
+
+/* ================================= BUTTON END ================================================== */
+}
